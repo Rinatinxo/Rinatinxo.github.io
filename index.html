@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rinat - Personal Portfolio</title>
+  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./images/my-avatar.png" alt="Rinat Kerimsal" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Rinat Kerimsal">Rinat Kerimsal</h1>
+          <p class="title">Student</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:rinat.kerimsal@gmail.com" class="contact-link">rinat.kerimsal@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+77082646316" class="contact-link">+77082646316</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">20 May, 2003</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Astana, Kazakhstan</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://instagram.com/soyrinat" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm Rinat Kerimsal and I'm a student at Nazarbayev University, studying Political Science and International Relations. I've always had a passion for
+            education,
+            which is why I started helping students with their university admissions. It's incredibly fulfilling to be able to assist someone in achieving their
+            academic
+            goals, and I'm grateful for the opportunity to do so.
+          </p>
+          <p>
+            In addition to university admissions, I also teach IELTS, an English language proficiency exam that's often required for admission to universities.
+            I love being
+            able to help students improve their English skills and prepare for this important exam.
+            <br>
+            To further share my knowledge and experience, I also have a blog on Telegram. It's a great platform for me to connect with others who are interested
+            in
+            education and to share my insights on various topics related to university admissions, IELTS, and more.
+            <br>
+            Overall, I'm passionate about education and committed to helping students succeed in their academic pursuits.
+          </p>
+        </section>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/logo-1-color.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Admission to the USA</h4>
+                <p class="service-item-text">
+                  I help to get into colleges abroad, especially in USA. I got into 6 top school in the US and started helping students in 2021
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/logo-2-color.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Teaching IELTS</h4>
+                <p class="service-item-text">
+                  I help students to understand English grammar and take IELTS exam. Most of my students got 7.0+ from the first try
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./images/logo-3-color.png" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Individual Consultations</h4>
+                <p class="service-item-text">
+                  Get personal feedback on your college essays and IELTS writing tasks. The overall analysis of your work will elevate your future writings
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anonymous student</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Получил свои результаты IELTS а надеялся максимум на 7.0, но благодаря вам, вашим материалам получил 7.5. Темы которые вы дали по speaking и
+                    writing были точь в
+                    точь как на экзамене. Я в шоке от качества ваших материалов и за такую цену
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Anonymous student</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Теперь могу уже не переживать об айлтс, спасибо вам большое
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Nazarbayev University, BA</h4>
+              <span>08/21-08/25</span>
+              <p class="timeline-text">
+                International Relations and Political Science, state
+                scholarship
+                <br>
+                cGPA 1st year 2.75
+                <br>
+                Minister of Education at Nazarbayev Intellectual
+                School, Student Council
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Project Manager | Community foundation “Izdenis Zholy”</h4>
+              <span>05/21-08/22</span>
+              <p class="timeline-text">
+                - Compiled statistics for projects about domestic abuse,
+                human rights and women’s empowerment
+                <br>
+                - Applied to grants program overseas and worked on
+                budget distribution of project
+                <br>
+                - Offered project aims for issues in Qyzylorda town and
+                investigated domestic violence towards women
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Social Media Manager | LLP MMshop(INSTAGRAM)</h4>
+              <span>07/21-06/22</span>
+              <p class="timeline-text">
+                - Conquered a large scope of clients to try clothing busines
+                <br>
+                - Raised revenue from $0 to a constant $5000/month of the
+                clothing brand by creating a content in social media
+                platform
+                <br>
+                - Promoted products in social media by applying targeting,
+                marketing and copywriting skills
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Coordinator, Certified Trainer | “Y-PEER Educational Network, UNFPA</h4>
+              <span>06/21 - Present</span>
+              <p class="timeline-text">
+                - Inform teens with trustworthy facts about
+                reproductive system and wellbeing
+                <br>
+                - Train aspiring volunteers to give lectures about
+                socially essential topics about SexED
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Organaziton</h5>
+                <data value="100">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Project Management</h5>
+                <data value="98">98%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 98%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Researching</h5>
+                <data value="97">97%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 97%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a target="_blank" href="https://t.me/justrinat/407">
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-2.webp" alt="Best fonts every designer" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 7, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Where to apply?</h3>
+                  <p class="blog-text">
+                    Do you think that application deadlines for universities are over? This article reveals universities that are still accepting applications.
+                    Do not miss this!
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a target="_blank" href="https://t.me/justrinat/409">
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Edu</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 13, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">The time of opportunity</h3>
+                  <p class="blog-text">
+                    An article about UNIQUE EXTRACURRICULARS that will lead you to your dream universities.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://t.me/justrinat/411">
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-3.png" alt="Design digest #80" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Exam</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Feb 13, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Golden package for IELTS</h3>
+                  <p class="blog-text">
+                    Need to prepare for IELTS? "GOLDEN COMPILATION" of the best resourses are available at just $10!
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a target="_blank" href="https://t.me/justrinat/383">
+                <figure class="blog-banner-box">
+                  <img src="./images/blog-4.avif" alt="UI interactions of the week" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">English</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Fab 23, 2023</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Hack to learn vocabulary</h3>
+                  <p class="blog-text">
+                    This article tells you about a great method to learn new words FOREVER.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Want to reach me out?</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Your name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Type here your message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
